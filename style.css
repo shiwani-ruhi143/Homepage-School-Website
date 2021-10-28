@@ -1,4 +1,4 @@
-.body{
+ .body{
    background-image: url("https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
    background-size: cover;
@@ -44,20 +44,30 @@ button:hover{
     color: white;
     
 }
-#learn{
-  padding-left: 10px;
-  font-size: 25px;
-}
+
 .homedesign{
+  display: flex;
+  flex-direction: column;
    text-align: center;
    font-size: 20px;
    font-weight: bold;
   background-color: rgba(0, 0, 0, 0.315);
+  align-items: center;
+ 
+  flex-wrap: wrap;
+  padding: 150px;
+ 
+}
+#learn{
   
+  font-size: 25px;
+  
+  margin: 80px;
 }
 .middle-heading{
   font-weight: bold;
   font-size: 50px;
+ 
 }
 .container{
     
@@ -65,6 +75,7 @@ button:hover{
     justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.315);
     padding-bottom: 150px;
+    flex-wrap: wrap;
    
  }
 
