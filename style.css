@@ -6,22 +6,8 @@
   height: 100vh;
   
 }
-@media ( max-width:600px){
-  .body {
-    background-position: center right;
-  }
-  .middle-heading{
-    position: absolute;
-    top:40%;
-    color:rgb(255, 255, 255);
-    
-  }
-  #learn{
-    position: absolute;
-    top:50%;
-    
-  }
-}
+
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -204,4 +190,29 @@ button:hover{
 
 .linkname:hover{
   color: rgb(233, 222, 208);
+}
+@media (max-width:400px){
+  #learn{
+   position: absolute;
+   
+  }
+  .middle-heading{
+    font-size: 25px;
+  }
+}
+@media ( max-width:600px){
+  .body {
+    background-position: center right;
+  }
+  .middle-heading{
+    position: absolute;
+    top:40%;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  #learn{
+    position: absolute;
+    top:60%;
+    
+  }
 }
